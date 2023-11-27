@@ -3,6 +3,7 @@ import { createMarkupSelect } from './createMarkupSelect';
 import { fetchCatByBreed } from './cat-api';
 import Notiflix from 'notiflix';
 import SlimSelect from 'slim-select';
+import loader from 'loader';
 
 const refs = {
   select: document.querySelector('.breed-select'),
